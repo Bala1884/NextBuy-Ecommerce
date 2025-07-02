@@ -35,7 +35,7 @@ app.get('/',(req,res)=>{
 
 
 
-app.listen(port,async()=>{
+app.listen(port, '0.0.0.0',async()=>{
     try {
     await sequelize.authenticate();
     console.log('✅ Connected to database');
