@@ -38,3 +38,4 @@ Thumbs.db
 # Ignore generated database files (if SQLite used)
 *.sqlite
 *.sqlite3
+
